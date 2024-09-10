@@ -21,7 +21,7 @@ f = plt.figure(figsize=(10, 6))
 plt.imshow(frame)
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 gcps = dict(
     src=[
         [2434, 1397], #Blue
@@ -73,7 +73,7 @@ plt.plot(*zip(*corners), "co", label="Corners of AOI")
 plt.legend()
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 f = plt.figure()
 ax2 = plt.axes()
 ax2.imshow(frame)
